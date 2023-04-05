@@ -1,0 +1,58 @@
+{auth ? (
+          <>
+          <Layout></Layout>
+          <Routes>
+            <Route path='/' element={<Dashborad/>}/>
+            <Route path='/Display_lawyer' element={<Display_lawyer/>}/>
+            <Route path='/Display_lawyer_categories' element={<Display_lawyer_categories/>}/>
+            <Route path='/Display_client' element={<Display_client/>}/>
+            <Route path='/Display_client_appointment' element={<Display_client_appointment/>}/>
+            <Route path='/Display_inquiry' element={<Display_inquiry/>}/>
+            <Route path='/Display_blog' element={<Display_blog/>}/>
+            <Route path='/Displayfeedback' element={<Display_feedback/>}/>
+            <Route path='/Admin_profile' element={<Admin_profile/>}/>
+            <Route path='/Admin_profile/:id' element={<Admin_profile/>}/>
+            <Route path='/Display_about_us' element={<Display_about_form/>}/>
+            <Route path='/Display_contact' element={<Display_contact/>}/>
+
+            {/* Add And Edit Router are call here */}
+
+            {/* Add Lawyer And Edit Lawyer */}
+            <Route path='/Add_lawyer' element={<Add_lawyer/>}/>
+            <Route path='/Add_lawyer/:id' element={<Add_lawyer/>}/>
+
+            {/* Add Lawyer category And Edit Lawyer category */}
+            <Route path='/Add_lawyer_categories' element={<Add_categories/>}/>
+            <Route path='/Add_lawyer_categories/:id' element={<Add_categories/>}/>
+            
+            {/* Add Client And Edit Client */}
+            <Route path='/Add_client' element={<Add_client/>}/>
+            <Route path='/Add_client/:id' element={<Add_client/>}/>
+
+            {/* Add Client Appointment And Edit Client Appointment */}
+            <Route path='/Client_appointment' element={<Add_client_appointment/>}/>
+            <Route path='/Client_appointment/:id' element={<Add_client_appointment/>}/>
+
+            {/* Reply Inquiry */}
+            <Route path='/Replay_inquiry/:id' element={<Replay_inquiry/>}/>
+
+            {/* Add Blog And Edit Blog */}
+            <Route path='/blog' element={<Add_blog/>}/>
+            <Route path='/blog/:id' element={<Add_blog/>}/>
+
+            {/* Add About Us And Edit About Us */}
+            <Route path='/About_form' element={<About_form/>}/>
+            <Route path='/About_form/:id' element={<About_form/>}/>
+
+            {/* Add Contact Us And Edit Contact Us */}
+            <Route path='/Contact' element={<Contact_form/>}/>
+            <Route path='/Contact/:id' element={<Contact_form/>}/>
+
+          </Routes>
+          <Footer></Footer>
+          </>
+        ):(
+          <Routes>
+            <Route path='/' element={<Login/>}/>
+          </Routes>
+        )}

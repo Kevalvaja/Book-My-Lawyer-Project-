@@ -1,0 +1,91 @@
+manage lawyer :-
+				
+1. date formate
+2. gender add in database table  { code , controller , model }
+3. click submit then msg show that msg not show
+4. in mobile no field write only numeric value and only 10 digit
+5. email-id 2 { validation not show }
+6. password write atleast 8 character
+7. when click on edit then dob not display 
+8. in age field add lawyer only 18 year +
+9. when click on edit button then lawyer category not selected
+10. in password field show eye button 
+11. select only image not video,file etc.... (size)
+12. Mobile no and mobile no 2 is same then display error but insert data.
+13. Email and Email 2 is same then display error but insert data.
+
+lawyer category :-
+
+1. in display page status show active and inactive
+2. select only image not video,file etc.... (size)
+3. Update time not select status and display message update record it is not properly.
+
+client :-
+
+1. plus button not display 
+2. in age field insert only 18 + client
+3. in status field write -select- not select status
+4. email formate write in proper formate
+5. password write atleast 8 character 
+6. add state field in database table { code , controller , model }
+7. country set default "india"
+8. in mobile no field write only numeric value and only 10 digit
+9. when click on edit then dob not display 
+10. in password field show eye button
+
+client appointment
+
+1. display client name and lawyer name (join query)
+2. display case category
+3. in status field write -select- not select status
+4. in appointment date field not select past date 
+5. when click on edit button then not disply appointment date , gender no select and case category not display
+6. click on edit before check all value are null or not
+7. remove client id and lawyer id ( defult is 1 )
+
+admin profile :-
+
+1. when click on edit then not display data
+
+about us :-
+
+1. select only image not video,file etc.... (size)
+2. in about page automaticaaly insert 2 data 
+3. when click on edit button then not ask plese select image
+4. admin can not add new data only edit old data , not delete old data 
+5. when click on edit button then take space in photo
+
+contact us :-
+
+1. when insert new record then not display contact and websitelink
+2. all link are accept only link formate
+3. disply + button 
+4. when click on edit button then not display defualtvalue and click on submit then not data update but data inserted and not show validation
+5. data not deleted
+ 
+feedback :-
+
+1. dynamic data display
+
+inquiry :-
+
+1. date formate not display properly
+
+blog :-
+
+1. in add form in lawyer name not display validation
+2. in select status show -select- not select status
+3. when any lawyer is inactive then not display 
+4. when click on edit button then lawyer name not select
+5. when click on edit button then not ask select image 
+6. when click on submit then old record not update but new record inserted
+
+dashboard :-
+
+create responsive 
+
+Login :-
+
+1. Validation
+2. Enter minimum 10 digit number.
+3. Enter Minimum 
